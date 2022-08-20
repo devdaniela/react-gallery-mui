@@ -1,6 +1,6 @@
 # React - Gallery
 
-### Vite + React + Material UI
+### ViteJS + ReactJS + Material UI
 
    1. Acceder desde la consola al directorio: 
       - cd react-gallery-mui
@@ -17,16 +17,16 @@
    * yarn add @mui/material @emotion/react @emotion/styled
    * yarn add @mui/icons-material
 
-     -- Adicional agregue al archivo index.html lo siguiente:
-     `
+     - Adicional agregue al archivo index.html lo siguiente:
+     [
         <link 
             rel="stylesheet" 
             href="https://fonts.googleapis.com/css?family=Roboto:300,400,500,700&display=swap"
         /> 
-      ` 
+      ] 
 
 
 ****************************************************************
 
-## Desarrollado por: Daniela Romero
-### @devdaniela
+### Desarrollado por: Daniela Romero
+* @devdaniela

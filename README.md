@@ -11,19 +11,19 @@
 
 
 ****************************************************************
-## Paquetes instalados:
+### Paquetes instalados previamente:
 
    * yarn add prop-types
    * yarn add @mui/material @emotion/react @emotion/styled
    * yarn add @mui/icons-material
 
      - Adicional agregue al archivo index.html lo siguiente:
-     [
+     ```html
         <link 
             rel="stylesheet" 
             href="https://fonts.googleapis.com/css?family=Roboto:300,400,500,700&display=swap"
-        /> 
-      ] 
+        />
+     ```
 
 
 ****************************************************************

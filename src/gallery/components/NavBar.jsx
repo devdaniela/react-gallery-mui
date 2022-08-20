@@ -10,7 +10,7 @@ export const NavBar = ({ openDrawer, setOpenDrawer }) => {
 
 
   return (
-    <AppBar position="sticky" sx={{ backgroundColor: 'inherit', color: 'inherit' }}>
+    <AppBar position="fixed" sx={{ backgroundColor: 'white', color: 'inherit' }}>
       <Grid
         container
         direction="row"

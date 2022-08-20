@@ -22,6 +22,7 @@ export const Header = () => {
             direction="row"
             alignContent="end"
             height={ 208 }
+            marginTop={7}
             color="white"
             sx={{ 
                 backgroundImage: `url( ${ BackgroundHeader} )`,

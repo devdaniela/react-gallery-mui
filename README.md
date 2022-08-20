@@ -2,13 +2,18 @@
 
 ### ViteJS + ReactJS + Material UI
 
-   1. Acceder desde la consola al directorio: 
-      - cd react-gallery-mui
+   1. Acceder al directorio desde el terminal:
+   ```cmd
+      cd react-gallery-mui
+   ```
    2. Instalar los paquetes requeridos usando yarn
-      - yarn
+   ```cmd
+      yarn
+   ```
    3. Ejecutar en el puerto que prefieran:
-      - yarn dev --port=3000
-
+   ```cmd
+      yarn dev --port=3000
+   ```
 
 ****************************************************************
 ### Paquetes instalados previamente:

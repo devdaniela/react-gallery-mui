@@ -14,6 +14,11 @@
    ```cmd
       yarn dev --port=3000
    ```
+   
+   * Para hacer el deploy a producción:
+   ```cmd
+      yarn build --base=./
+   ```
 
 ****************************************************************
 ### Paquetes instalados previamente:

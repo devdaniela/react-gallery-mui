@@ -1,15 +1,26 @@
+import { Link as RouterLink } from 'react-router-dom';
+import { Link, Typography } from '@mui/material';
 
 import { GalleryLayout } from '../layout/GalleryLayout';
-import { CardGrid } from '../components';
+import { CardGrid, InputSearch } from '../components';
+
 
 export const GalleryPage = () => {
 
   return (
     <GalleryLayout>
       
-      {/* <Typography>Lorem ipsum dolor sit amet consectetur adipisicing elit. Nisi, adipisci quisquam aperiam sit repellat fugit! Nesciunt totam quam magni quod neque tenetur eaque quae dicta rerum eum officia, obcaecati facilis.</Typography> */}
+      {/* Input - search */}
+      <InputSearch />
+    
 
+      {/* Component CardGrid */}
       <CardGrid />
+
+      {/* Link - Load More */}
+      <Link component={RouterLink} to="/" sx={{ p: 3, textAlign: 'center', textDecoration:'none'}} >
+        <Typography variant='h5'>Load More</Typography>
+      </Link>
       
     </GalleryLayout>
   )

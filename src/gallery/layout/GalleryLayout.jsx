@@ -8,9 +8,7 @@ export const GalleryLayout = ({ children }) => {
         <Header />
 
         <Box component='main' sx={{ flexGrow: 1, p: 3 }}>
-          <Toolbar>
             { children }
-          </Toolbar>
         </Box>
 
         <Footer />

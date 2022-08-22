@@ -9,7 +9,14 @@ export const Footer = () => {
         direction="column"
         alignItems="center"
         height={ 55 }
-        sx={{ pt:2, bottom: 0, backgroundColor: 'secondary.darker', color: 'secondary.contrastText' }}
+        borderTop={4}
+        sx={{ 
+          pt:2, 
+          bottom: 0, 
+          backgroundColor: 'secondary.darker', 
+          color: 'secondary.contrastText', 
+          borderColor:'primary.main',
+        }}
     >
         <Grid item >
             <Box

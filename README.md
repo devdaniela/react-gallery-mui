@@ -1,6 +1,6 @@
 # React - Gallery
 
-### ViteJS + ReactJS + Material UI
+### Vitejs: ReactJS + Material UI
 
    1. Acceder al directorio desde el terminal:
    ```cmd
@@ -8,7 +8,7 @@
    ```
    2. Instalar los paquetes requeridos usando yarn
    ```cmd
-      yarn
+      yarn install
    ```
    3. Ejecutar en el puerto que prefieran:
    ```cmd

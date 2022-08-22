@@ -21,7 +21,7 @@ export const Footer = () => {
         <Grid item >
             <Box
                 component="img"
-                sx={{ height: 27, mr: 2 }}
+                sx={{ height: 27, mr: 2, display: {xs:'none', sm:'inline-block'}}}
                 alt="ACMEgallery"
                 src={ logo }
             />

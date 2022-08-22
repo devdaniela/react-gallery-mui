@@ -21,7 +21,7 @@ export const Header = () => {
             container
             direction="row"
             alignContent="end"
-            height={ 208 }
+            height={ { xs:150, sm:208} }
             marginTop={7}
             color="white"
             sx={{ 
@@ -31,7 +31,7 @@ export const Header = () => {
              }}
         >
             <Grid item sx={{ pl: 4, pb: 2 }}>
-                <Typography variant='h2'>Gallery</Typography>
+                <Typography variant='h2' sx={{ fontSize:{ xs:35 } }}>Gallery</Typography>
             </Grid>
         </Grid>
 

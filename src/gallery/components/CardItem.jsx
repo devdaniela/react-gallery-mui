@@ -9,7 +9,7 @@ export const CardItem = ({ name, tag }) => {
     <Grid item sx={{ m: 2, backgroundColor:'secondary.light', borderRadius: '10px' }} >
         <Box
             component="img"
-            sx={{ width: { xs: 335, md: 350 }, borderRadius: '10px 10px 0px 0px' }}
+            sx={{ width: { xs: 300, md: 350 }, borderRadius: '10px 10px 0px 0px' }}
             alt="ACMEgallery"
             src={ imgCard }
         />

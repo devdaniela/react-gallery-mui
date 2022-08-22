@@ -1,0 +1,10 @@
+[
+    { "id": 1, "name": "Sam Jerremy", "tag": "dayAtTheBeach", "url": "https://github.com/devdaniela/react-gallery-mui/blob/main/src/assets/img/card.png", "avatar": "https://github.com/devdaniela/react-gallery-mui/blob/main/src/assets/img/avatar.png"},
+    { "id": 2, "name": "Sam Jerremy", "tag": "dayAtTheBeach", "url": "https://github.com/devdaniela/react-gallery-mui/blob/main/src/assets/img/card.png", "avatar": "https://github.com/devdaniela/react-gallery-mui/blob/main/src/assets/img/avatar.png" },
+    { "id": 3, "name": "Sam Jerremy", "tag": "dayAtTheBeach", "url": "https://github.com/devdaniela/react-gallery-mui/blob/main/src/assets/img/card.png", "avatar": "https://github.com/devdaniela/react-gallery-mui/blob/main/src/assets/img/avatar.png" },
+    { "id": 4, "name": "Sam Jerremy", "tag": "dayAtTheBeach", "url": "https://github.com/devdaniela/react-gallery-mui/blob/main/src/assets/img/card.png", "avatar": "https://github.com/devdaniela/react-gallery-mui/blob/main/src/assets/img/avatar.png" },
+    { "id": 5, "name": "Sam Jerremy", "tag": "dayAtTheBeach", "url": "https://github.com/devdaniela/react-gallery-mui/blob/main/src/assets/img/card.png", "avatar": "https://github.com/devdaniela/react-gallery-mui/blob/main/src/assets/img/avatar.png" },
+    { "id": 6, "name": "Sam Jerremy", "tag": "dayAtTheBeach", "url": "https://github.com/devdaniela/react-gallery-mui/blob/main/src/assets/img/card.png", "avatar": "https://github.com/devdaniela/react-gallery-mui/blob/main/src/assets/img/avatar.png" },
+    { "id": 7, "name": "Sam Jerremy", "tag": "dayAtTheBeach", "url": "https://github.com/devdaniela/react-gallery-mui/blob/main/src/assets/img/card.png", "avatar": "https://github.com/devdaniela/react-gallery-mui/blob/main/src/assets/img/avatar.png" },
+    { "id": 8, "name": "Sam Jerremy", "tag": "dayAtTheBeach", "url": "https://github.com/devdaniela/react-gallery-mui/blob/main/src/assets/img/card.png", "avatar": "https://github.com/devdaniela/react-gallery-mui/blob/main/src/assets/img/avatar.png" }
+]

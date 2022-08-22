@@ -2,9 +2,9 @@
 import { Grid, Box, Avatar, Typography } from '@mui/material';
 
 import imgCard from '../../assets/img/card.png';
-import imgAvatar from '../../assets/img/avatar.png';
+import avatar from '../../assets/img/avatar.png';
 
-export const CardItem = () => {
+export const CardItem = ({ name, tag }) => {
   return (
     <Grid item sx={{ m: 2, backgroundColor:'secondary.light', borderRadius: '10px' }} >
         <Box
@@ -20,11 +20,11 @@ export const CardItem = () => {
             padding={1}
         >
             <Grid item>
-                <Avatar alt="avatar" src={ imgAvatar } />
+                <Avatar alt="avatar" src={ avatar } />
             </Grid>
             <Grid item>
-                <Typography>Sam Jerremy</Typography>
-                <Typography color="inherit">#dayAtTheBeach</Typography>
+                <Typography>{name}</Typography>
+                <Typography color="inherit">#{ tag }</Typography>
             </Grid>
         </Grid>
         

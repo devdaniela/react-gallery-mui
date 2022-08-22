@@ -1,16 +1,21 @@
 import { Grid } from '@mui/material';
+
 import { CardItem } from './';
+import { getCards } from '../../helpers/getCards';
 
 
 export const CardGrid = () => {
 
-  const cards = [1,2,3,4,5,6,7,8];
+  const cards = getCards();
 
   return (
     <Grid container justifyContent="center" >
         { 
           cards.map( card => (
-            <CardItem key={card} />
+            <CardItem 
+              key={card.id} 
+              {...card} 
+            />
           ))
         }
     </Grid>

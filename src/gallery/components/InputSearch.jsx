@@ -1,23 +1,27 @@
-import { Grid, IconButton, TextField } from '@mui/material';
+import { Grid, IconButton, InputLabel, TextField } from '@mui/material';
 import { SearchOutlined } from '@mui/icons-material';
+import { Box } from '@mui/system';
 
 export const InputSearch = () => {
   return (
     <Grid container justifyContent="flex-end">
-        <Grid item xs={12} lg={4} xl={3} sx={{ mr: { xs: 0, lg:4, xl:22} }}>
-          <TextField
-            fullWidth
-            id="standard-bare"
-            variant="filled"
-            label="Search by"
-            InputProps={{
-              endAdornment: (
-                <IconButton>
-                  <SearchOutlined />
-                </IconButton>
-              ),
-            }}
-          />
+        <Grid item xs={12} sx={{ mr: { xs: 0, md:15} }} textAlign="right">
+            <InputLabel sx={{ display: {xs: 'none', sm:'inline-block'}, mt:1, mr:2 }}>Search by #</InputLabel>
+            <TextField 
+              hiddenLabel
+              size="small"
+              variant="filled"
+              sx={{ width:{xs:'100%', sm:'auto'} }}
+              InputProps={{
+                sx: { borderRadius: '10px'},
+                disableUnderline: true,
+                endAdornment: (
+                  <IconButton sx={{ color:'primary.light' }}>
+                    <SearchOutlined />
+                  </IconButton>
+                ),
+              }}
+            />
         </Grid>
       </Grid>
   )

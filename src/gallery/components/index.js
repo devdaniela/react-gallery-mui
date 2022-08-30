@@ -7,3 +7,7 @@ export * from './InputSearch';
 export * from './CardGrid';
 export * from './CardItem';
 
+export * from './ImageGallery';
+
+
+

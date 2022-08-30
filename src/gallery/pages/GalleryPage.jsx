@@ -13,7 +13,6 @@ export const GalleryPage = () => {
       {/* Input - search */}
       <InputSearch />
     
-
       {/* Component CardGrid */}
       <CardGrid />
 
@@ -21,7 +20,7 @@ export const GalleryPage = () => {
       <Link component={RouterLink} to="/" sx={{ p: 3, textAlign: 'center', textDecoration:'none'}} >
         <Typography variant='h5'>Load More</Typography>
       </Link>
-      
+
     </GalleryLayout>
   )
 }
